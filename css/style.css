@@ -7,6 +7,10 @@
   background-color: #21618C;
 }
 
+.vector:hover {
+  background-color: #2874A6;
+}
+
 .angel-opaque {
   background-color: rgba(255, 255, 255, 0.6)
 }
