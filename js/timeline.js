@@ -12,7 +12,7 @@ $(function(){
 	    origin: 'right',
 	    distance: '300px',
 	    easing: 'ease-in-out',
-	    duration: 800,
+	    duration: 1500,
 	  });
 
   } else {
@@ -21,14 +21,14 @@ $(function(){
 	    origin: 'left',
 	    distance: '300px',
 		  easing: 'ease-in-out',
-	    duration: 800,
+	    duration: 1500,
 	  });
 
 	  sr.reveal('.js--fadeInRight', {
 	    origin: 'right',
 	    distance: '300px',
 	    easing: 'ease-in-out',
-	    duration: 800,
+	    duration: 1500,
 	  });
 
   }
@@ -37,14 +37,14 @@ $(function(){
 	    origin: 'left',
 	    distance: '300px',
 		  easing: 'ease-in-out',
-	    duration: 800,
+	    duration: 1500,
 	  });
 
 	  sr.reveal('.js--fadeInRight', {
 	    origin: 'right',
 	    distance: '300px',
 	    easing: 'ease-in-out',
-	    duration: 800,
+	    duration: 1500,
 	  });
 
 
