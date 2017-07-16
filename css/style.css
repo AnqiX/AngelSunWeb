@@ -68,13 +68,29 @@ h1, h2, h3, h4 {
     height: 150px;
 }
 
+.defaultHide {
+  display: none;
+}
 
-@media (max-width: 800px)
+/*on mobile screen*/
+@media (max-width: 991px)
 {
   .mobileHide {
       display: none;
   }
+  .mobileShow {
+      display: block;
+  }
 }
+
+/*on PC screen*/
+@media (min-width: 991px)
+{
+  .pcHide {
+      display: none;
+  }
+}
+
 
 a {
   text-decoration: none;

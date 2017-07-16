@@ -29,11 +29,19 @@
     </div>
 
 
-    <div class="w3-top" >
-        <div class="w3-bar w3-white w3-padding w3-card-4" style="letter-spacing:4px;">
-            <a href="index.html" class="w3-bar-item w3-button w3-text-safety-blue" style = 'font-size: 20px; line-height: 20px; '>Angel Sun</a>
+
+
+
+
+    <div class="w3-top w3-display-container" style = 'height: 50px; z-index: 3'>
+        <div class="w3-bar w3-white w3-padding w3-card-4" style="letter-spacing:4px; height: 100%">
+            <a class="w3-display-right w3-button w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <a href="index" class="w3-bar-item w3-button w3-text-safety-blue" style = 'font-size: 20px; line-height: 20px; '>Angel Sun</a>
         <!-- Right-sided navbar links. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
+            <div class="w3-right  w3-hide-medium ">
                 <a href="index.html" class="w3-bar-item w3-button">Home</a>
                 <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
                 <a href="fun.html" class="w3-bar-item w3-button">Fun Projects</a>
@@ -43,7 +51,20 @@
         </div>
     </div>
 
-    <div style = 'height:40px'></div>
+    <div id="navDemo" class="w3-bar-block w3-hide-large w3-top w3-border-top" style="margin-top:50px; display: none; z-index: 3; background-color: rgba(255, 255, 255, 0.7);">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
+        <a href="fun.html" class="w3-bar-item w3-button">Fun Projects</a>
+        <a href="hobbies.html" class="w3-bar-item w3-button">Hobbies</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Keep In Touch</a>
+    </div>
+
+
+
+
+
+
+    <div style = 'height:32px'></div>
 
 
     <!-- Page Container -->
@@ -225,5 +246,7 @@
       <!-- End Page Container -->
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
