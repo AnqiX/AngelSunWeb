@@ -2,21 +2,24 @@
 	{
 background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
 /*background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");*/
-opacity: 0.15
+opacity: 0.15;
+z-index: -1;
 }
 
 .backgroundImgThree
 	{
 background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
 /*background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");*/
-opacity: 0.17
+opacity: 0.17;
+z-index: -1;
 }
 
 .backgroundImgTwo
 	{
 background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 /*background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");*/
-opacity: 0.7
+opacity: 0.7;
+z-index: -1;
 }
 
 
@@ -24,7 +27,8 @@ opacity: 0.7
 	{
 background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
 /*background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");*/
-opacity: 1
+opacity: 1;
+z-index: -1;
 }
 
 
@@ -32,6 +36,7 @@ opacity: 1
 	{
 background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
 /*background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");*/
-opacity: 1
+opacity: 1;
+z-index: -1;
 }
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */

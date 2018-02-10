@@ -4,7 +4,7 @@
   width: 100%;
   transition: all 1s;
   position: relative;
-  background-color: #21618C;
+  background-color: hsl(204, 77%, 30%);
 }
 
 .vector:hover {
@@ -29,7 +29,7 @@ svg {
   z-index: 0;
 }
 polygon {
-  fill: black;
+  fill: #222;
 }
 .vector > span {
   position: absolute;
@@ -55,7 +55,7 @@ h3:hover {
 }
 
 h1, h2, h3, h4 {
-  font-family: Verdana,sans-serif
+  font-family: Verdana;
 }
 
 
@@ -72,6 +72,10 @@ h1, h2, h3, h4 {
   display: none;
 }
 
+.cus-top {
+  margin-top: 5%;
+}
+
 /*on mobile screen*/
 @media (max-width: 991px)
 {
@@ -81,6 +85,45 @@ h1, h2, h3, h4 {
   .mobileShow {
       display: block;
   }
+
+  h1 {
+    font-size: 23px
+  }
+
+  .cus-mobile{
+    padding: 2px;
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+  }
+
+  .w3-ul li {
+    padding: 2px;
+  }
+
+  .timeline h2 {
+    font-size: 25px
+  }
+
+  .mobileFont {
+    font-size: 23px;
+  }
+
+  .w3-xxlarge {
+    font-size: 25px !important;
+  }
+
+/*  .w3-ul li:first-child {
+      border-top: 1px solid #ddd;
+  }
+
+  .w3-ul li:last-child {
+      border-bottom: 1px solid #ddd;
+  }*/
+
+  .cus-top {
+    margin-top: 10%;
+  }
+
 }
 
 /*on PC screen*/
@@ -88,6 +131,10 @@ h1, h2, h3, h4 {
 {
   .pcHide {
       display: none;
+  }
+
+  .cus-move-up {
+    margin-top: -350px
   }
 }
 
@@ -100,3 +147,44 @@ a {
   color: #2874A6;
 }
 
+.w3-hover-text-safety-blue:hover {
+  color: hsl(205, 100%, 80%);
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bullet li {
+  padding-left: 1.5em;
+  border-bottom: none !important;
+  
+}
+
+.bullet li:before {
+  content: "\f111"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color: #2874A6;
+}
+
+
+
+.innergrid li {
+  padding-left: 1.5em;
+  border-bottom: none !important;
+  
+}
+
+.innergrid li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color: #2874A6;
+}

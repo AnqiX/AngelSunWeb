@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/transparentBackground.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-safety.css">
     <link rel="stylesheet" href="css/style.css">
-<body class = "w3-light-grey">
+<body class = "w3-light-grey"  style = "font-size: 17px">
 <!--     <div class="vector right w3-text-white" style = 'position: fixed; height: 100%; width: 100%; z-index: 0'>
         <div>
             <svg viewBox="0 0 40 100" preserveAspectRatio="none" style = 'z-index: 0px'>
@@ -21,18 +21,18 @@
             </svg>  
         </div>
     </div> -->
-    <div class="backgroundImgTwo" style = 'position: fixed; height: 100%; width: 100%; z-index: 0'></div>
+    <div class="backgroundImgTwo" style = 'position: fixed; height: 100%; width: 100%; z-index: 1'></div>
 
 
 
 
-    <div class="w3-top w3-display-container" style = 'height: 50px; z-index: 3'>
-        <div class="w3-bar w3-white w3-padding w3-card-4" style="letter-spacing:4px; height: 100%">
+    <div class="w3-top w3-display-container w3-card-2" style = 'height: 50px; z-index: 4'>
+        <div class="w3-bar w3-white w3-padding" style="letter-spacing:4px; height: 100%">
             <a class="w3-display-right w3-button w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
 
-            <a href="index" class="w3-bar-item w3-button w3-text-safety-blue" style = 'font-size: 20px; line-height: 20px; '>Angel Sun</a>
+            <a href="index.html" class="w3-bar-item w3-button w3-text-safety-blue" style = 'font-size: 20px; line-height: 20px; '>Angel Sun</a>
         <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right  w3-hide-medium ">
                 <a href="index.html" class="w3-bar-item w3-button">Home</a>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div id="navDemo" class="w3-bar-block w3-hide-large w3-top w3-border-top" style="margin-top:50px; display: none; z-index: 3; background-color: rgba(255, 255, 255, 0.7);">
+    <div id="navDemo" class="w3-bar-block w3-hide-large w3-top w3-border-top w3-card-2 w3-white" style="margin-top:50px; display: none; z-index: 3;">
         <a href="index.html" class="w3-bar-item w3-button">Home</a>
         <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
         <a href="fun.html" class="w3-bar-item w3-button">Fun Projects</a>
@@ -56,93 +56,202 @@
 
 
 
-    <div style = 'height:30px'></div>
+    <div style = 'height:60px'></div>
 
-    <div class="w3-container w3-margin-top w3-light-grey w3-padding-32"  style = 'z-index: 20'>
+    <div class = "w3-row w3-display-container w3-hide-small" style = "width: 80%; margin: auto; z-index: 2; ">
+        <img src="images/professionalicon.jpg" style = 'height: 170px; width: 165px; border-radius: 50%; margin: auto; ' class = "w3-display-left w3-hide-small">
+        <div class = "w3-quarter">
+            &nbsp;
+        </div>
+        <div class = "w3-threequarter">
+            <p>At work I write software applications to aid in engineering decision making process and to improve the overall production efficiency. I was lucky enough to participate in several inter-department projects as well as indenpendently work on smaller projects from design to deliver. It's been a quite challenging yet fascinating experience. </p>
+            <p  >
+            As Einstein said, "The more I learn, the more I realize how much I don't know". Outside of work, I've been taking online classes in various computer science topics: machine learning, algorithms, data structure, object-oriented programming, etc. </p>
+            <p><b>Below are some of my favorite projects, both from work and from online courses. Hope you find it interesting (cuz I do!).</b></p>
+        </div>
+    </div>
 
-        <div class="w3-row-padding">
+    
 
-            <div class="w3-twothird">
-                <img src="images/materialDashFull.png" style = 'width: 100%'>
-            </div>
+
+    <div class="w3-container w3-padding-32 cus-mobile w3-display-container"   style = 'z-index: 2'>
+
+        <div class = "w3-hide-medium w3-hide-large w3-center">
+            <h2>Fun Projects</h2>
+        </div>
+
+        <ul class = "w3-ul w3-border-top">
+
+            <li class = "w3-padding-32 cus-mobile" id = "sdes">
+                
+                <div class="w3-row-padding " style = "padding: 10px 0px">
+
+                    <div class="w3-third" >
+                        <h1 class = " w3-center">Opening Ceremony Visitor's Dashboard Project</h1>
+                        <p>An application designed to demonstrate the IoT (Internet of Things) used in the scheduling, quality control, and engineering monitoring process of the Daikin Texas Technology Park. It was used in the grand opening ceremony of the factory with over 5000 visitors and now serves as a tool for the marketing team to explain the IoT of the manufacturing process.</p>
+                        <p>More technical details:</p>
+                        <div class = "w3-margin">                            
+                            <ul class = "w3-ul bullet">
+                                <li>Information from various sources in the manufacturing process are collected and visualized in a user friendly manner, including supply chain material flow, production line real time status, and weekly production, etc.</li>
+                                <li>The user interface is integrated with multiple languages, including English, Japanese, Traditional Chines, Simplified Chinese, Korean, and Hindi.</li>
+                                <li>This application is deployed to production and widely used as a one-in-all presenting tool by the management.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w3-twothird w3-padding">
+                        <img src="images/SDESmain.png" class = "w3-card" style = 'width: 100%;'>
+                    </div>
+
+                    
+                </div>
+            </li>
+
+
+
             
-            <div class="w3-third" >
-                <div>
-                    <h2>Machine Production Reports</h2>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfas dfa sdfas dfaaaaaa aaaa aaaaa aaaaa</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfasdf asdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssssa sdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssss</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>a sdfas dfasdfa sdf aasd fa sdf</p>
+
+            <li  class = "w3-padding-32 cus-mobile" id = "setApps">
+                <h1 class = " w3-center">User Management System Project</h1>
+                <div class="w3-row-padding " style = "padding: 10px 0px">
+
+                    <div class="w3-half" >
+                        <div class = "w3-margin">
+                            
+                            <p>
+                                The User Management System serves as the gateway of various applications developed by the Systems Engineering Team. It is used internally to control the access rights to data for all the engineers and management staff in the company. 
+                            </p>
+                            <p>More technical details:</p>
+                            <ul class = "w3-ul bullet">
+                                <li>Basic features include new account registration, email verification, login, password reset, and confidential information encoding</li>
+                                <li>Permission control based on user groups is enforced to all applications within the User Management System. All user groups are fully configurable from the admin dashboard.</li>
+                                <li>This project is written in PHP and is required to be applied to softwares written in C# and python as well. Therefore, APIs are provided for basic features such as identity authentification, user information and permission configuration, etc.</li>
+                                <li>This application is currently running in production.</li>
+                            </ul>
+                        </div>
+
+                        <div class = "w3-padding">
+                            <img src="images/setAppsPages.png" class = "w3-card w3-margin-top" style = 'width: 100%;'>
+                        </div>
+                    </div>
+
+                    <div class="w3-half w3-margin-top">
+                        <div class = "w3-half w3-padding">
+                            <img src="images/setMobile.png" class = "w3-card" style = 'width: 100%;'>
+                        </div>
+
+                        <div class = "w3-half w3-padding">
+                            <img src="images/setAppsPermissionControl.png" class = "w3-card" style = 'width: 100%;'>
+                        </div>
+                    </div>
+
+                    
                 </div>
-            </div>
-
-        </div>
+            </li>
 
 
-        <br><hr style = 'border: 0.05px solid rgba(0,0,0,0.05)'><br>
+            
 
-        <div class="w3-row-padding w3-margin">
 
-            <div style="width: 78%; display: inline-block;">
-                <div class = 'w3-twothird w3-margin-right'>
-                    <img src="images/amsreports.png" style = 'width: 100%;'>
+            <li class = "w3-padding-32 cus-mobile" id = "materialDash">
+                
+                <div class="w3-row-padding "  style = "padding: 10px 0px">
+
+
+                    <div class="w3-twothird w3-padding w3-hide-small">
+                        <img src="images/materialDash.png" class = "w3-card" style = 'width: 100%;'>
+                    </div>
+
+                    <div class="w3-third w3-padding" >
+                        <h1 class = " w3-center">Material Supply Status Dashboard Project</h1>
+                        <p>In order to improve the efficiency of the supply chain material scheduling process, a dashboard was developed to visualize the real time status of the material supply and demand in the production lines. This project was initially developed for the material department, but was later requested by other department as well due to its convenience and </p>
+                        <p>More technical details:</p>
+                        <div class = "w3-margin">
+                            
+                            <ul class = "w3-ul bullet">
+                                <li>Analyze the material consumption data from the production line. Based on the analysis, label each Work Order with different urgency level.</li>
+                                <li>The urgency of materials needed for the Work Order are visualized with quantity numbers and different colors to help the Material Department in their supply process.</li>
+                                <li>This application is currently used in production.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w3-twothird w3-padding w3-hide-medium w3-hide-large">
+                        <img src="images/materialDash.png" class = "w3-card" style = 'width: 100%;'>
+                    </div>
+
+                    
                 </div>
-                <div class = 'w3-quarter w3-margin-left' >
-                    <img src="images/mobilePHS.png" style = 'width: 100%;  height: 500px'>
+            </li>
+
+
+            <li  class = "w3-padding-32 cus-mobile" id = "phsreports">
+                <div class="w3-row-padding " style = "padding: 10px 0px">
+
+                    <div class="w3-col l7 w3-hide-small">
+
+                        <div class = "w3-row w3-padding">
+                            <img src="images/phsreports7.JPG" class = "w3-card" style = 'width: 100%'>
+                        </div>
+
+                        <div class = "w3-row">
+                            <div class = "w3-col l5 w3-padding">
+                                <img src="images/phsMobile.png" class = "w3-card" style = 'width: 100%'>
+                            </div>
+                            <div class = "w3-col l7 w3-padding">
+                                <img src="images/phsreports2.png" class = "w3-card" style = 'width: 100%'>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+
+
+                    
+                    
+                    <div class="w3-col l5" >
+                        <div class = "w3-margin-left">
+                            <h1 class = " w3-center">Automated Machine Reports Project</h1>
+                            
+                            <p>
+                                This project delivers a web application and email notification system now widely used by the engineering department and the manufacturing department in our company to make engineering decisions. Using this tool, the engineers are able to see both real time and historical machine data, which reveals each machine's operational status, error history, as well as production performance.
+                            </p>
+                            <p>More technical details:</p>
+                            <ul class = "w3-ul bullet">
+                                <li>Collect real time binary data from PLCs with information of each machine's production status and error records. These data are stored in the central database for analysis.</li>
+                                <li>Wrote APIs that process the binary raw data and output human readable machine operation reports in the form of downloadable excel files as well as email reports sent out every hour automatically.</li>
+                                <li>Design and wrote an engineers-oriented web application to visualize the machine data. </li>
+                                <li>Full mobile compability</li>
+                                <li>This application is currently running in production and is still under constant upgrades.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w3-col lßß7 w3-hide-medium w3-hide-large">
+
+                        <div class = "w3-row w3-padding">
+                            <img src="images/phsreports7.JPG" class = "w3-card" style = 'width: 100%'>
+                        </div>
+
+                        <div class = "w3-row">
+                            <div class = "w3-col l5 w3-padding">
+                                <img src="images/phsMobile.png" class = "w3-card" style = 'width: 100%'>
+                            </div>
+                            <div class = "w3-col l7 w3-padding">
+                                <img src="images/phsreports2.png" class = "w3-card" style = 'width: 100%'>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+
                 </div>
-            </div>
 
-            <div style="width: 18%; display: inline-block;" >
-                <div>
-                    <h2>Machine Production Reports</h2>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfas dfa sdfas dfaaaaaa aaaa aaaaa aaaaa</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfasdf asdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssssa sdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssss</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>a sdfas dfasdfa sdf aasd fa sdf</p>
-                </div>
-            </div>
-        </div>
+            </li>
 
-        <br><hr style = 'border: 0.05px solid rgba(0,0,0,0.05)'><br>
-
-        <div class="w3-row-padding">
-            <div class="w3-third" >
-                <div>
-                    <h2>Material Department Dashbaord</h2>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfas dfa sdfas dfaaaaaa aaaa aaaaa aaaaa</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfasdf asdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssssa sdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssss</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>a sdfas dfasdfa sdf aasd fa sdf</p>
-                </div>
-            </div>
-
-            <div class="w3-twothird">
-                <img src="images/materialDashFull.png" style = 'width: 100%'>
-            </div>
-        </div>
-
-
-        <br><hr style = 'border: 0.05px solid rgba(0,0,0,0.05)'><br>
-
-
-        <div class="w3-row-padding">
-
-            <div class="w3-twothird">
-                <div class = 'w3-twothird w3-margin-right'>
-                    <img src="images/purple.jpg" style = 'width: 100%'>
-                </div>
-                <div class = 'w3-quarter w3-margin-left' >
-                    <img src="images/mobilePHS.png" style = 'width: 100%'>
-                </div>
-            </div>
-
-            <div class="w3-third" >
-                <div>
-                    <h2>Material Department Dashbaord</h2>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfas dfa sdfas dfaaaaaa aaaa aaaaa aaaaa</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>asdfasdf asdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssssa sdfasdf asssssss sss ssss sss ss ssssss sssss ssss sss sssss sss s ssss</p>
-                    <p><i class="fa fa-circle w3-text-safety-blue w3-margin-right" aria-hidden="true"></i>a sdfas dfasdfa sdf aasd fa sdf</p>
-                </div>
-            </div>
-
-        </div>
+        </ul>
     </div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

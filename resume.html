@@ -33,13 +33,13 @@
 
 
 
-    <div class="w3-top w3-display-container" style = 'height: 50px; z-index: 3'>
-        <div class="w3-bar w3-white w3-padding w3-card-4" style="letter-spacing:4px; height: 100%">
+    <div class="w3-top w3-display-container w3-card-2" style = 'height: 50px; z-index: 4'>
+        <div class="w3-bar w3-white w3-padding" style="letter-spacing:4px; height: 100%">
             <a class="w3-display-right w3-button w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
 
-            <a href="index" class="w3-bar-item w3-button w3-text-safety-blue" style = 'font-size: 20px; line-height: 20px; '>Angel Sun</a>
+            <a href="index.html" class="w3-bar-item w3-button w3-text-safety-blue" style = 'font-size: 20px; line-height: 20px; '>Angel Sun</a>
         <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right  w3-hide-medium ">
                 <a href="index.html" class="w3-bar-item w3-button">Home</a>
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div id="navDemo" class="w3-bar-block w3-hide-large w3-top w3-border-top" style="margin-top:50px; display: none; z-index: 3; background-color: rgba(255, 255, 255, 0.7);">
+    <div id="navDemo" class="w3-bar-block w3-hide-large w3-top w3-border-top w3-white w3-card-2" style="margin-top:50px; display: none; z-index: 3;">
         <a href="index.html" class="w3-bar-item w3-button">Home</a>
         <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
         <a href="fun.html" class="w3-bar-item w3-button">Fun Projects</a>
@@ -69,7 +69,7 @@
 
     <!-- Page Container -->
     
-    <div class="w3-content w3-margin-top" style="max-width:1400px; position: relative; ">
+    <div class="w3-content w3-margin-top" style="max-width:1400px; position: relative;  z-index: 2">
 
         <!-- The Grid -->
         <div class="w3-row-padding">
@@ -77,57 +77,66 @@
         <!-- Left Column -->
         <div class="w3-third">
 
-        <div class="w3-white w3-text-grey w3-border">
-            <div class="w3-display-container w3-padding-16" >
-                <div class="w3-container w3-text-black w3-half w3-center" style = 'margin: 0px'>
-                    <p style = 'line-height: 130px; font-size: 30px'>Angel Sun</p>
-                </div>
-                <div class = 'w3-center w3-margin w3-third'>
-                    <img src="images/portrait.jpg" style = 'height: 170px; width: 165px; border-radius: 50%'>
-                </div>
-            </div>
-
-            <div class="w3-container">
-                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>Software Programmer | Engineer | Learner</p>
-                <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-safety-blue" aria-hidden="true"></i>GitHub</p>
-                <p><i class="fa fa-linkedin-square fa-fw w3-margin-right w3-large w3-text-safety-blue" aria-hidden="true"></i>LinkedIn</p>
-                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>anqi.angel.sun@gmail.com</p>
-                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>(832)807-0734</p>
-                <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>Houston, TX</p>
-                <hr>
-
-                <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-safety-blue"></i>Skills</b></p>
-                <p>Web Development | PHP, Javascript, SQL</p>
-                <div class="w3-light-grey w3-round-xlarge w3-small">
-                    <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:90%;">90%</div>
-                </div>
-                <p>Object Oriented Programming | Python, Java</p>
-                <div class="w3-light-grey w3-round-xlarge w3-small">
-                    <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:70%">
-                        <div class="w3-center w3-text-white">70%</div>
+            <div class="w3-white w3-text-grey w3-border w3-card">
+                <div class="w3-display-container w3-padding-8 w3-hide-small" >
+                    <div class="w3-container w3-text-black w3-half w3-center" style = 'margin: 0px'>
+                        <p style = 'line-height: 130px; font-size: 30px'>Angel Sun</p>
+                    </div>
+                    <div class = 'w3-center w3-margin w3-third'>
+                        <img src="images/portrait.jpg" style = 'height: 170px; width: 165px; border-radius: 50%'>
                     </div>
                 </div>
-                <p>IOS Development | Swift, Objective-C</p>
-                <div class="w3-light-grey w3-round-xlarge w3-small">
-                    <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:50%">50%</div>
-                </div>
-                <p>Team Work</p>
-                <div class="w3-light-grey w3-round-xlarge w3-small">
-                    <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:70%">70%</div>
-                </div>
-                <br>
-                <hr>
 
-                <p class="w3-large"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-safety-blue"></i>Education</b></p>
-                <h5 ><b>Rice University</b></h5>
-                <h6 class="w3-text-safety-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2013 - May 2016</h6>
-                <p>Bachelor of Science in Mechanical Engineering (B.S.M.E)</p>
-                <p><b>GPA: 3.71</b></p>
-                <p class="w3-text-safety-blue"><i class="fa fa-book fa-fw w3-margin-right" aria-hidden="true"></i>Courses (online & at college)</p>
-                <p>Algorithms<br>Introduction to Interactive Programming in Python<br>Principles of Computing<br>Introduction to Computational Engineering<br>Introduction to Robotics</p>
-                <br>
-            </div>
-        </div><br>
+                <div class="w3-padding-32 w3-hide-large w3-hide-medium" >
+                    <div class="w3-display-container w3-text-black w3-col s6 w3-center" style = 'margin: 0px; height: 100px;'>
+                        <div class = "w3-display-middle w3-large" style = "width: 100%">Angel Sun</div>
+                    </div>
+                    <div class = 'w3-col s6 w3-center'>
+                        <img src="images/portrait.jpg" style = 'width: 100px; border-radius: 50%'>
+                    </div>
+                </div>
+
+                <div class="w3-container">
+                    <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>Software Programmer | Engineer | Learner</p>
+                    <p class = "w3-text-safety-blue  w3-hover-text-blue"><a href = "https://www.linkedin.com/in/anqi-sun-5346b197/"  target="_newtab" ><i class="fa fa-linkedin-square fa-fw w3-margin-right w3-large " aria-hidden="true"></i>LinkedIn</a></p>
+                    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>anqi.angel.sun@gmail.com</p>
+                    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-safety-blue"></i>Houston, TX</p>
+                    <hr>
+
+                    <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-safety-blue"></i>Skills</b></p>
+                    <p>Web Development | PHP, Javascript, SQL</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:90%;">90%</div>
+                    </div>
+                    <p>Object Oriented Programming | Python, Java</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:70%">
+                            <div class="w3-center w3-text-white">70%</div>
+                        </div>
+                    </div>
+                    <p>IOS Development | Swift, Objective-C</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-safety-blue" style="width:50%">50%</div>
+                    </div>
+
+                    <br>
+                    <hr>
+
+                    <p class="w3-large"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-safety-blue"></i>Education</b></p>
+                    <h5 ><b>Rice University</b></h5>
+                    <h6 class="w3-text-safety-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2013 - May 2016</h6>
+                    <p>Bachelor of Science in Mechanical Engineering (B.S.M.E)</p>
+                    <p class="w3-text-safety-blue"><i class="fa fa-book fa-fw w3-margin-right" aria-hidden="true"></i>Courses (online & at college)</p>
+                    <p>
+                        Algorithms<br>
+                        Machine Learning <br>
+                        Introduction to Interactive Programming in Python<br>
+                        Principles of Computing<br>
+                        Introduction to Computational Engineering<br>
+                        Introduction to Robotics</p>
+                    <br>
+                </div>
+            </div><br>
 
         <!-- End Left Column -->
         </div>
@@ -135,8 +144,8 @@
         <!-- Right Column -->
         <div class="w3-twothird">
 
-            <div class="w3-container w3-border w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-safety-blue"></i>Work Experience</h2>
+            <div class="w3-container w3-border w3-white w3-margin-bottom w3-card">
+                <h2 class="w3-text-grey w3-padding-8 mobileFont w3-margin-top"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-safety-blue"></i>Work Experience</h2>
 
                 <div class="w3-container">
                     <h5 class="w3-opacity"><b>Analyst | Systems Engineering Team, Goodman Manufacturing</b></h5>
@@ -147,13 +156,12 @@
                     Developed web/ios applications to visualize machine data and aid in production management. These applications replaces hours of daily data analysis with automated data collection and analysis process</b></h5>
                     </p>
                     <p>
-                    <i class="fa fa-circle w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Independently wrote backend programs and built databases for data analysis; collaborated with hardware engineers to build processes that automatically collect real time machine data into backend database </p>
+                    <i class="fa fa-circle w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Independently wrote backend programs and built databases for data analysis; collaborated with hardware engineers to build processes that automatically collect real time machine data from PLC into SQL database </p>
                     <p>
                     <i class="fa fa-circle w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Developed front end user interfaces and cooperated with engineers to make modifications for better user experience</p>
                     <p>
                     <i class="fa fa-circle w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Created an IOS app that integrated an external image processing library with internal APIs as a tool to identify produced units and track their production history; This app simplified trouble shooting tasks for production engineers by replacing data mining with a simple scan and redirect user interface</p>
 
-                    <hr>
                 </div>
 
                 <div class="w3-container">
@@ -171,67 +179,102 @@
                 </div>
 
 
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-safety-blue"></i>Programming Projects</h2>
+                <h2 class="w3-text-grey w3-padding-8 mobileFont"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-safety-blue"></i>Programming Projects</h2>
 
                 <div class="w3-container">
-                    <div class = 'w3-half'>
+                    <div class = 'w3-half w3-hide-small'>
                         <ul class="w3-ul w3-hoverable w3-margin-right">
                             <li>
                                 <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
-                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>SET User Management System</div>
-                                    <div class = 'w3-quarter w3-center'><img src="images/set.png" class = 'w3-hide-small' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    <a href = "fun.html#phsreports">
+                                        <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Automated Machine Reports</div>
+                                        <div class = 'w3-quarter w3-center'><img src="images/d.jpg" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    </a>
                                 </div>
                             </li>
                             <li class = 'w3-center'>
                                 <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
-                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Grand Opening Showcase UI</div>
-                                    <div class = 'w3-quarter w3-center'><img src="images/sdes.png" class = 'w3-hide-small' style = 'height: 60px; width: 60px; margin: 0px'></div>
-                                </div>
-                            </li>
-                            <li class = 'w3-center'>
-                                <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
-                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Production Health Reports</div>
-                                    <div class = 'w3-quarter w3-center'><img src="images/phs.png" class = 'w3-hide-small' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    <a href = "fun.html#setApps">
+                                        <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>User Management System</div>
+                                        <div class = 'w3-quarter w3-center'><img src="images/setMobileIcon.png" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    </a>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class = 'w3-half'>
+                    <div class = 'w3-half w3-hide-small'>
                         <ul class="w3-ul w3-hoverable w3-margin-right">
                             <li>
                                 <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
-                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Smart Bubble Tips</div>
-                                    <div class = 'w3-quarter w3-center'><img src="images/set.png" class = 'w3-hide-small' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    <a href = "fun.html#sdes">
+                                        <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Opening Ceremony Dashboard</div>
+                                        <div class = 'w3-quarter w3-center'><img src="images/sdes.png" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    </a>
                                 </div>
                             </li>
                             <li class = 'w3-center'>
                                 <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
-                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Writer Markov</div>
-                                    <div class = 'w3-quarter w3-center'><img src="images/sdes.png" class = 'w3-hide-small' style = 'height: 60px; width: 60px; margin: 0px'></div>
-                                </div>
-                            </li>
-                            <li class = 'w3-center'>
-                                <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
-                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Project TBD</div>
-                                    <div class = 'w3-quarter w3-center'><img src="images/phs.png" class = 'w3-hide-small' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    <a href = "fun.html#materialDash">
+                                        <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Material Dashboard</div>
+                                        <div class = 'w3-quarter w3-center'><img src="images/materialdashmobile.png" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                    </a>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
+
+                    <ul class="w3-ul w3-hoverable w3-margin-right w3-hide-large w3-hide-medium">
+                        <li>
+                            <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
+                                <a href = "fun.html#phsreports">
+                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Automated Machine Reports</div>
+                                    <div class = 'w3-quarter w3-center'><img src="images/d.jpg" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class = 'w3-center'>
+                            <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
+                                <a href = "fun.html#setApps">
+                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>User Management System</div>
+                                    <div class = 'w3-quarter w3-center'><img src="images/setMobileIcon.png" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
+                                <a href = "fun.html#sdes">
+                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Opening Ceremony Dashboard</div>
+                                    <div class = 'w3-quarter w3-center'><img src="images/sdes.png" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class = 'w3-center'>
+                            <div  style ='cursor: pointer; height: 60px; vertical-align: middle'>
+                                <a href = "fun.html#materialDash">
+                                    <div class = 'w3-threequarter w3-center' style = 'line-height: 60px'>Material Dashboard</div>
+                                    <div class = 'w3-quarter w3-center'><img src="images/materialdashmobile.png" class = 'w3-hide-small w3-card' style = 'height: 60px; width: 60px; margin: 0px'></div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
 
 
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-safety-blue"></i>Leadership Experience</h2>
+                <h2 class="w3-text-grey w3-padding-8 mobileFont"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-safety-blue"></i>Leadership Experience</h2>
 
                 <div class="w3-container">
                     <h5 class="w3-opacity"><b>Club President | Society of Asian Scientists and Engineers - Rice University Chapter</b></h5>
                     <h6 class="w3-text-safety-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2015 - Mar 2016</h6>
                     <p>
-                        <i class="fa fa-check-square-o w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Recruited officers and expanded the SASE - Rice club membership and organized general meetings, info sessions, lunch talks, etc.
+                        <i class="fa fa-check-square-o w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Expanded club membership from 30 to over 100; managed key personnel and daily operation
                     </p>
                     <p>
-                        <i class="fa fa-check-square-o w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Reached out to SASE National, sponsors, and Rice Activities Center for fund raising (approx. $2000 / year)
+                        <i class="fa fa-check-square-o w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Organized regular bi-weekly meet-ups; connected with industry through info sessions and lunch talks, etc.
+                    </p>
+                    <p>
+                        <i class="fa fa-check-square-o w3-text-safety-blue fa-fw w3-margin-right" aria-hidden="true"></i>Contacted with industry sponsors (e.g. Shell, Chevron, BP, etc.), and Rice Activities Center for fund raising (approx. $2000 / year)
                     </p>
                     <br>
                 </div>

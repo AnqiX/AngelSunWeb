@@ -8,3 +8,10 @@ function myFunction() {
         $('#navDemo').show();
     }
 }
+
+
+$.ajax({url: "https://freegeoip.net/json/", success: function(result)
+	{
+        console.log(result);
+    }
+});
